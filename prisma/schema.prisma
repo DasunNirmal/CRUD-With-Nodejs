@@ -18,3 +18,9 @@ model Customer {
   name   String
   email  String  @unique
 }
+model Item {
+  id     Int     @id @default(autoincrement())
+  itemName   String
+  price  String
+  qty String
+}
