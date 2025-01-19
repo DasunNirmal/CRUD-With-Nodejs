@@ -1,6 +1,6 @@
 import express from "express";
 import {Customer} from "../model/Customer";
-import {add, del, get, update} from "../database/prisma-data-store";
+import {add, del, get, update} from "../database/prisma-data-store-customer";
 
 const routerPrisma = express.Router();
 
