@@ -20,7 +20,6 @@ export async function add(customer:Customer) {
 export async function get() {
     try {
         return await prisma.customer.findMany();
-
     } catch (err) {
         console.log("error Getting Customers :", err);
     }
